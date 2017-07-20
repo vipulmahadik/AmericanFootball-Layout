@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-size: small;
+}
+
+
+
+
+/* Ground */
+.ground{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+
+
+/* Defense Side */
+.row{
+    width: 100%;
+    padding:10px 0;
+    height:60px;
+    position: relative;
+    margin: 0 auto;
+}
+.DL{
+    width: 40%;
+    display: block;
+}
+
+.LB{
+    width:60%;
+    position: relative;
+}
+
+.LB .card:first-child{
+    position: absolute;
+    left:0;
+}
+
+
+.LB .card:last-child{
+    position: absolute;
+    right: 0;
+}
+
+.CB{
+    width: 80%;
+    position: relative;
+}
+
+
+.CB .card:first-child{
+    position: absolute;
+    left:0;
+}
+
+
+.CB .card:last-child{
+    position: absolute;
+    right: 0;
+}
+
+.S{
+    width: 20%;
+    position: relative;
+}
+
+
+
+
+
+
+
+/* Offense Side */
+
+.first{
+    width: 80%;
+}
+
+.first .WR{
+    position: absolute;
+    left:0;
+}
+
+.first .TE{
+    position: absolute;
+    right:0;
+}
+
+.second{
+    width: 90%;
+}
+
+.second .WR{
+    position: absolute;
+    right:0;
+}
+
+
+
+
+
+
+
+/* Player Card */
+
+.card{
+    display: inline-block;
+    width: 60px;
+    padding: 5px;
+    height: 50px;
+    position: relative;
+    background-color: #d0e4ff;
+}
+
+.blankC{
+    background-color: #e6ffec;
+}
+
+.label{
+    position: absolute;
+}
+
+.name{
+    left: 5px;
+}
+
+.number{
+    right: 5px;
+}
+
+.position{
+    left: 5px;
+}
+.name p{
+    display: block;
+    text-align: center;
+}
