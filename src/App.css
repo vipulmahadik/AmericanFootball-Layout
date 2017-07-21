@@ -2,24 +2,68 @@
   text-align: center;
 }
 
+body{
+    background-color: #7870b7;
+}
 
 *{
     box-sizing: border-box;
-    font-size: small;
+    font-family: Helvetica;
 }
+
+
+/*Dashboard*/
+
+.dashboard{
+    margin: 1%;
+    width: 18%;
+    height: 96vh;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    display: inline-block;
+    float: left;
+    text-align: left;
+
+}
+ul{
+    list-style: none;
+}
+.playername{
+    line-height:2;
+    font-size: 0.9em;
+}
+
 
 
 
 
 /* Ground */
 .ground{
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    width: 78%;
+    display: inline-block;
+    margin: 1%;
+    height: 96vh;
+    padding: 40px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("1.jpg");
+    border: 10px solid white;
+    box-shadow: 0 0 10px black;
 }
 
+hr{
+    border: 4px solid white;
+}
 
+p{
+    margin: 0;
+    transition: all 1s;
+}
 
+.highlight{
+    background-color: #2196F3;
+    padding-left: 10px ;
+}
 
 
 /* Defense Side */
@@ -112,35 +156,45 @@
 
 /* Player Card */
 
+
+
 .card{
     display: inline-block;
-    width: 60px;
-    padding: 5px;
-    height: 50px;
+    padding:10px 15px;
+    font-weight: 700;
+    margin: 0 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
     position: relative;
-    background-color: #d0e4ff;
+    min-width: 40px;
+    background-color: #fff;
 }
 
-.blankC{
-    background-color: #e6ffec;
+
+.card p{
+    font-size: smaller;
 }
 
-.label{
-    position: absolute;
-}
-
-.name{
-    left: 5px;
-}
-
-.number{
-    right: 5px;
-}
-
-.position{
-    left: 5px;
-}
-.name p{
+.nameno{
+    background-color: #AED581;
     display: block;
-    text-align: center;
+    font-weight: 200;
+    position: absolute;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50px;
+    opacity: 1;
 }
+.up{
+    left:0;
+    bottom: 110%;
+}
+.down{
+    top:0;
+    right: 110%;
+}
+
+
+
+
+

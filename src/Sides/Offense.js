@@ -2,34 +2,35 @@ import React, { Component } from 'react';
 import PlayerCard from './PlayerCard';
 
 class Offense extends Component {
-
-    handleClick(e){
-        let cls = e.currentTarget.className;
-        let elems = document.getElementsByClassName(cls)[1];
-        let first = e.currentTarget.firstChild;
-        console.log(elems.firstChild);
-        // e.currentTarget.innerHTML = document.createElement(elems.firstChild);
-        // elems.innerHTML = document.createElement(first);
-
+    constructor(){
+        super();
+        this.state = {
+            players: ""
+        }
+    }
+    componentWillMount(){
+        this.setState({
+            players : this.props.players
+        })
     }
 
     render(){
         return (
             <div className="Offence">
                 <div className="row first">
-                    <span className="WR" onClick={this.handleClick.bind(this)}><PlayerCard side="WR" number="1"/></span>
-                    <span className="C" onClick={this.handleClick.bind(this)}><PlayerCard side="C" number=""/></span>
-                    <span className="TE" onClick={this.handleClick.bind(this)}><PlayerCard side="TE" number=""/></span>
+                    <span className="WR"><PlayerCard team="O" side="WR" player={this.state.players['WR'][0]} number={this.state.players["WR"][1]} /></span>
+                    <span className="C"><PlayerCard team="O" side="C" player={this.state.players['C'][0]} number={this.state.players['C'][1]} /></span>
+                    <span className="TE"><PlayerCard team="O" side="TE" player={this.state.players['TE'][0]} number={this.state.players['TE'][1]} /></span>
                 </div>
                 <div className="row second">
-                    <span className="QB" onClick={this.handleClick.bind(this)}><PlayerCard side="QB" number=""/></span>
-                    <span className="WR" onClick={this.handleClick.bind(this)}><PlayerCard side="WR" number="2"/></span>
+                    <span className="QB"><PlayerCard team="O" side="QB" player={this.state.players['QB'][0]} number={this.state.players['QB'][1]} /></span>
+                    <span className="WR"><PlayerCard team="O" side="WR" player={this.state.players['WR'][0]} number={this.state.players["WR"][1]} /></span>
                 </div>
                 <div className="row third">
-                    <span className="RB"><PlayerCard side="RB" number=""/></span>
+                    <span className="RB"><PlayerCard team="O" side="RB" player={this.state.players['RB'][0]} number={this.state.players['RB'][1]} /></span>
                 </div>
                 <div className="row forth">
-                    <span className="RB"><PlayerCard side="RB" number=""/></span>
+                    <span className="RB"><PlayerCard team="O" side="RB" player={this.state.players['RB'][0]} number={this.state.players['RB'][1]} /></span>
                 </div>
             </div>
         )
