@@ -2,7 +2,6 @@
   "name": "FootballLineup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vipulmahadik.github.io/AmericanFootball-Layout",
   "devDependencies": {
     "react-scripts": "1.0.10"
   },

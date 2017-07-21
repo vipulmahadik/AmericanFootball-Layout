@@ -21,8 +21,6 @@ class PlayerCard extends Component {
 
 
     render(){
-
-
         let temp ="";
         if(this.props.player){
             temp = this.props.player.map((p,i) => {
