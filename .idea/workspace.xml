@@ -32,9 +32,12 @@
         <entry file="file://$PROJECT_DIR$/src/Ground.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="e#40#81#0" expanded="true" />
+                <marker date="1500599501000" expanded="true" signature="249:1356" ph="{...}" />
+                <marker date="1500599501000" expanded="true" signature="312:828" ph="[...]" />
+                <marker date="1500599501000" expanded="true" signature="850:1080" ph="{&quot;31&quot;: &quot;Byron Jones&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -47,6 +50,8 @@
               <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
               <folding>
                 <element signature="e#40#81#0" expanded="true" />
+                <marker date="1500599904000" expanded="true" signature="173:254" ph="{...}" />
+                <marker date="1500599904000" expanded="true" signature="279:362" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/Sides/PlayerCard.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
               <folding>
                 <marker date="1500600788000" expanded="true" signature="578:878" ph="..." />
                 <marker date="1500600788000" expanded="true" signature="1048:1090" ph="..." />
@@ -65,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
@@ -75,30 +80,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sides/Player.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="45">
+              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Offense.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sides/Offense.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="20" column="60" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-              <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-              <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-              <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-              <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,11 +113,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Sides/Offense.js" />
-        <option value="$PROJECT_DIR$/src/Sides/Player.js" />
         <option value="$PROJECT_DIR$/src/Ground.js" />
         <option value="$PROJECT_DIR$/src/Sides/Defense.js" />
         <option value="$PROJECT_DIR$/src/Sides/PlayerCard.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Sides/Player.js" />
+        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -298,16 +287,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500566377178</updated>
-      <workItem from="1500566378666" duration="19590000" />
+      <workItem from="1500566378666" duration="21631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19590000" />
+    <option name="totallyTimeSpent" value="21631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -317,7 +306,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985073" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -377,25 +366,20 @@
           <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
           <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sides/Player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Ground.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="e#40#81#0" expanded="true" />
+            <marker date="1500599501000" expanded="true" signature="249:1356" ph="{...}" />
+            <marker date="1500599501000" expanded="true" signature="312:828" ph="[...]" />
+            <marker date="1500599501000" expanded="true" signature="850:1080" ph="{&quot;31&quot;: &quot;Byron Jones&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -406,6 +390,8 @@
           <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
           <folding>
             <element signature="e#40#81#0" expanded="true" />
+            <marker date="1500599904000" expanded="true" signature="173:254" ph="{...}" />
+            <marker date="1500599904000" expanded="true" signature="279:362" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -418,7 +404,7 @@
     <entry file="file://$PROJECT_DIR$/src/Sides/PlayerCard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <marker date="1500600788000" expanded="true" signature="578:878" ph="..." />
             <marker date="1500600788000" expanded="true" signature="1048:1090" ph="..." />
@@ -430,6 +416,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sides/Player.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="69" lean-forward="false" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/asset-manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.b13b0a31.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10845">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.b13b0a31.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21089">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
           <folding />
         </state>
       </provider>

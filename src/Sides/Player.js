@@ -16,7 +16,7 @@ class Player extends Component {
         let players = this.props.players;
         let op = [];
         for(let p in players){
-            let a = <p id={p} >{p} : {players[p]}</p>;
+            let a = <p id={p} >{"00".substring(0, 2 - p.length) + p}  {players[p]}</p>;
             op.push(a);
         }
         this.setState({
